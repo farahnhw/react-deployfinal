@@ -39,8 +39,6 @@ const EditPhoto = () => {
       })
   }, [id]);
 
-  if (error) return <div>Error!</div>;
-
   return (
     <>
       {loading ? (
