@@ -16,7 +16,7 @@ const Photos = () => {
     })
     .then((response) => response.json())
     .then(() => {
-      setPhotos(photos.filter((item) => item.id != id))
+      setPhotos(photos.filter((item) => item.id !== id))
     })
   };
 
